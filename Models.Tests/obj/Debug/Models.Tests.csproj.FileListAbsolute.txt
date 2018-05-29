@@ -1,0 +1,6 @@
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\Models.Tests\bin\Debug\Models.Tests.dll
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\Models.Tests\bin\Debug\Models.Tests.pdb
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\Models.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\Models.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\Models.Tests\obj\Debug\Models.Tests.dll
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\Models.Tests\obj\Debug\Models.Tests.pdb

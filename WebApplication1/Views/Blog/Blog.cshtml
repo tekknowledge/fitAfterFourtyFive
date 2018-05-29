@@ -1,0 +1,18 @@
+﻿@using WebApplication1.Models.ViewModel
+@model Blog
+
+@{
+    ViewBag.Title = "Blog";
+}
+
+<h2>@Model.Title</h2>
+
+
+@foreach (var blogEntry in Model.Entries) {
+    <h3>@blogEntry.Title</h3>
+    <p>@blogEntry.Content</p>
+}
+
+
+
+

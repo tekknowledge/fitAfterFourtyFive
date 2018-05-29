@@ -1,0 +1,6 @@
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\DataAccess.Tests\bin\Debug\DataAccess.Tests.dll
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\DataAccess.Tests\bin\Debug\DataAccess.Tests.pdb
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\DataAccess.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\DataAccess.Tests\obj\Debug\DataAccess.Tests.dll
+C:\Users\dwitherspoon\Documents\Visual Studio 2015\Projects\WebApplication1\DataAccess.Tests\obj\Debug\DataAccess.Tests.pdb

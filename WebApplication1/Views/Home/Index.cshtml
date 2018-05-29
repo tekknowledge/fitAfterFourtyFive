@@ -1,0 +1,124 @@
+﻿@using Models.Home
+@using Service = WebApplication1.Models.ViewModel.Service
+@model WebApplication1.Models.ViewModel.Homepage
+
+@{
+    ViewBag.Title = "Home Page";
+    var myServicesColLength = (int)(12 / Model.MyServices.Services.Count());
+    var myTestimonailsColLength = (int)(12 / Model.Testimonials.Testimonials.Count());
+
+}
+
+<link href="~/Content/home.css" type="text/css" rel="stylesheet" />
+
+<div class="row">
+    <div class="col-12-lg centerText">
+        <img src="~/Content/Fitness_header.jpeg" title="Fitness" style="width:100%;" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 ">
+        <div class="row welcomeDiv">
+            <div class="col-lg-2">
+                &nbsp;
+            </div>
+            <div class="col-lg-6">
+                <p class="welcomeHeading">
+                    @Html.Raw(Model.Welcome.Heading)
+
+                </p>
+                <p class="welcomeBlurb">
+                    @Html.Raw(Model.Welcome.Blurb)
+                </p>
+            </div>
+            <div class="col-lg-4">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    <div class="col-12-lg meetMeDiv">
+        <div class="row">
+            <div class="col-lg-6" style="height: 500px; background-image: url('@Model.MeetMe.ImageUrl')">
+                &nbsp;
+            </div>
+            <div class="col-lg-6">
+                <p class="meetMeHeading">
+                    @Html.Raw(Model.MeetMe.Heading)
+                </p>
+                <p class="meetMeBlurb">
+                    @Html.Raw(Model.MeetMe.Blurb)
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12-lg servicesHeaderDiv">
+
+        <div class="row services">
+            <div class="col-lg-12">
+                <p class="myServicesHeading centerText">
+                    @Html.Raw(Model.MyServices.Heading)
+                </p>
+            </div>
+        </div>
+        <div class="row services">
+            @foreach (var tmp in Model.MyServices.Services) {
+                var svc = (Service)tmp;
+
+                <div class="col-lg-@myServicesColLength">
+                    <div class="centerText">
+                        <!--bg img-->
+                        <img src="@svc.ImageUrl" title="@svc.Heading" alt="@svc.SubHeading" class="serviceImage"/>
+                        &nbsp;
+                    </div>
+                    <div class="centerText serviceHeading">
+                        @Html.Raw(svc.Heading)
+                    </div>
+                    <div class="centerText serviceSubHeading">
+                        @Html.Raw(svc.SubHeading)
+                    </div>
+                    <div class="centerText">
+                        <button type="button" class="button">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="col-12-lg testimonialsHeaderDiv">
+
+        <div class="row testimonials">
+            <div class="col-lg-12">
+                <p class="myTestimonialsHeading centerText">
+                    @Html.Raw(Model.Testimonials.Heading)
+                </p>
+            </div>
+        </div>
+        <div class="row testimonials">
+            @foreach (var tmp in Model.Testimonials.Testimonials) {
+                var svc = (WebApplication1.Models.ViewModel.Testimonal)tmp;
+
+                <div class="col-lg-@myTestimonailsColLength">
+                    <div class="centerText">
+                        <!--bg img-->
+                        <img src="@svc.ImageUrl" title="@svc.Heading" alt="@svc.Heading" class="serviceImage"/>
+                        &nbsp;
+                    </div>
+                    <div class="centerText serviceHeading">
+                        @Html.Raw(svc.Heading)
+                    </div>
+                    <div class="centerText testimonialsubHeading">
+                        @Html.Raw(svc.Blurb)
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <iframe src="~/Forms/Book.aspx" style="width: 100%; height:700px;"></iframe>
+    </div>
+    <div class="col-lg-6">
+        <img src="~/Content/signal-2018-05-15-114148.jpg" style="width:100%;"/>
+    </div>
+</div>
