@@ -1,0 +1,42 @@
+﻿body {
+    background-color:black;
+    color:white;
+}
+
+.row {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input[type=text] {
+    border-radius: 7px;
+    width:40%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color:yellow;
+    font-weight:900;
+    margin-top:-30px;
+}
+textarea {
+    border-radius: 7px;
+    width:75%;
+}
+
+
+.button {
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+    font-weight: 900;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

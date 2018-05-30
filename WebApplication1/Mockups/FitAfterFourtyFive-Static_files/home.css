@@ -1,0 +1,114 @@
+﻿
+.meetMeHeading {
+    color:grey;
+    font-family:Arial;
+    font-size:54px;
+    font-weight:900;
+    letter-spacing:7px;
+    padding-left: 50px;
+    padding-top: 75px;
+    text-transform: uppercase;
+}
+
+.meetMeBlurb {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.meetMeDiv {
+    background-color:white;
+    height:500px;
+}
+
+.myTestimonialsHeading {
+    color: grey;
+    font-family: Arial;
+    font-size: 54px;
+    font-weight:900;
+    height:400px;
+    letter-spacing:7px;
+    padding-top: 275px;
+    text-transform: uppercase;
+}
+
+.myServicesHeading {
+    color: yellow;
+    font-family: Arial;
+    font-size: 54px;
+    font-weight:900;
+    height:560px;
+    letter-spacing:7px;
+    padding-top: 275px;
+    text-transform: uppercase;
+    background-color:black;
+    background-image:url('/Content/signal-2018-05-15-114148.jpg')
+}
+
+.services {
+    background-color:black;
+}
+.serviceHeading {
+    color:yellow;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:900;
+    letter-spacing:1px;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+
+.serviceSubHeading {
+    color:white;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:800;
+    letter-spacing:5px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.serviceImage {
+    border-radius: 50%;
+    height:150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.testimonialsHeading {
+    color: yellow;
+    font-family: Arial;
+    font-size: 54px;
+    font-weight:900;
+    letter-spacing:7px;
+    padding-top: 150px;
+    text-transform: uppercase;
+}
+
+.welcomeHeading {
+    color: yellow;
+    font-family: Arial;
+    font-size: 54px;
+    font-weight:900;
+    letter-spacing:7px;
+    padding-top: 150px;
+    text-transform: uppercase;
+}
+
+.welcomeBlurb {
+    color:white;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:700;
+    font-style: italic;
+
+}
+
+iframe {
+    overflow-x: hidden;
+}
+.welcomeDiv {
+    background-color:black;
+    background-image: url("https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/1280-kettlebell-swing_1.jpg");
+    height:500px;
+}
